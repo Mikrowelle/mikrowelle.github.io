@@ -1,15 +1,51 @@
-
 h1 {
-	text-align: center;
-	color: darkblue;
-	font-family: sans-serif;
-	font-size:6vw;
-	margin-bottom: 0;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 32px;
+
+	color: #323232;
+
 }
 
-hr{
-	margin-left: 20vw;
-	margin-right: 20vw;
+h3 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	font-size: 16px;
+
+	color: #5182FF;
+}
+
+p {
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 25px;
+	font-size: 16px;
+
+	color: #767676;
+}
+
+button {
+	background: #5182FF;
+	/* Drop it Like it's Hot */
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+	/* View Deck */
+	width: 75px;
+	height: 19px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 16px;
+	text-align: center;
+
+	color: #FFFFFF;
 }
 
 img {
