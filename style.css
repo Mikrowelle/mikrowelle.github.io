@@ -17,10 +17,26 @@ article {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.image_container{
+	height: 600px;
 }
 
 article > img {
-	margin: 0;
+	margin-top: 3em;
+}
+
+header > img {
+	max-width: 100vw;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.bullet {
+	margin-top: 3em;
 }
 
 #content {
@@ -76,6 +92,7 @@ p {
 	line-height: 25px;
 
 	margin-top: 1em;
+	margin-bottom: 0;
 
 	color: #767676;
 }
@@ -86,7 +103,7 @@ aside > p {
 	color: #323232;
 
 	margin-top: .5em;
-	;
+
 	margin-bottom: 1em;
 }
 
@@ -103,13 +120,6 @@ button {
 	text-align: center;
 
 	color: #FFFFFF;
-}
-
-img {
-	max-width: 100vw;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
 }
 
 /*Interactio*/
