@@ -158,11 +158,27 @@ article {
 	background-size: cover;
 }
 
+.parallax_home {
+	/* The image used */
+	background-image: url(home/images/about_cover.jpg);
+
+	/* Set a specific height */
+	height: 80vh;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 article > img {
 	margin: 3em 0;
 	width: 100%;
 	align-self: center;
 }
+
+
 
 .imgPair {
 	margin: 3em 0;
@@ -269,6 +285,41 @@ aside > p {
 	text-align: center;
 
 	color: #FFFFFF;
+}
+
+/*home cover-----------------------------------*/
+
+.homeText{
+	position: absolute;
+	top: 40vh;
+	right: 40vw;
+}
+
+.intro{
+	display: flex;
+	justify-content: center;
+}
+
+
+.intro h1 {
+	font-size: 2.5em;
+	padding: .25em;
+	color: white;
+	background-color: #5182FF;
+
+}
+
+.gallery{
+	background-color: #5182FF;
+	padding: 0;
+	width: 100%;
+	display: flex;
+	justify-content:center;
+}
+
+.cover img{
+	max-height:100%;
+	max-width: 100%;
 }
 
 /*Interaction------------------------*/
