@@ -8,9 +8,31 @@
 </head>
 
 <body>
-	<nav></nav>
+	<nav>
+		<!-- Site Name-->
+		<h3 id="siteName">Lefurge Design</h3>
+		<!-- Site Links-->
+		<div id="navLinks">
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<!-- Dropdown Menus-->
+			<div class="dropdown">
+				<button class="dropbtn">Projects
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<!-- Links in the Dropdown-->
+				<div class="dropdown-content">
+					<a href="#">News Deck</a>
+					<a href="#">Mobile Banking</a>
+					<a href="#">Emergency Alert System</a>
+					<a href="#">Vehicle Registration</a>
+					<a href="#">Strong Museum</a>
+				</div>
+			</div>
+		</div>
+	</nav>
 	<header>
-		<img src="mobile_banking/images/mobile_banking_mockup_wide.jpg">
+		<div class="parallax"></div>
 	</header>
 	<div id="content">
 		<section id="project">
@@ -25,30 +47,21 @@
 			<p>2 Weeks, February 2018</p>
 			<h3>Tools</h3>
 			<p>Adobe Illustrator, Adobe XD</p>
-			<button>View Deck</button>
+			<button class="deckButt">View Deck</button>
 		</aside>
 		<article>
-			<h2>Understanding</h2>
-			<p>Through research and conversations with people in the Financial Services Industry, I identified that the greatest challenge facing the industry was their struggle to gain and retain younger users.</p>
-			<div class="image_container">
-				<img src="mobile_banking/images/og_screen1.jpg">
-				<img src="mobile_banking/images/og_screen2.jpg">
+			<h2>Same App New Look</h2>
+			<p>I redesigned the <a href="https://www.affinityfcu.com/banking/mobile-banking/the-affinity-mobile-banking-app.aspx">Affinity Mobile Banking app</a> to meet the expectations of young users and to satisfy the interests of the business. Subtle gradients and illustrations were used to bring the design in line with modern trends, while generous spacing and a clear visual hierarchy ensure clarity and usability.</p>
+			<div class="imgPair">
+				<img src="mobile_banking/images/iphone_acount_screen.png">
+				<img src="mobile_banking/images/iphone_transfer_screen.png">
 			</div>
-			<div class="bullet">
-				<h2>Finance is Intimidating</h2>
-				<p>The app looks overly formal.</p>
-			</div>
-			<div class="bullet">
-				<h2>Information is unclear</h2>
-				<p>Its hard to understand things at a glance!?!</p>
-			</div>
-			<div class="bullet">
-				<h2>Its not Cool</h2>
-				<p>The app doesn’t look like other apps I use daily!</p>
-			</div>
+			<h2>Finding the Mood</h2>
+			<p>When finding the mood for the design, I wanted to avoid looking at existing UI for my first references to avoid the pitfalls of the products already on the market. Instead I found inspiration in modern Industrial Design and Photography. I was especially inspired by white Mediterranean homes resting against the natural gradients of a sunset. This became a key influence for my design direction.</p>
+			<img src="mobile_banking/images/mood_board.jpg">
+
 		</article>
 	</div>
-
 </body>
 
 </html>
