@@ -311,14 +311,21 @@ aside > p {
 	background-color: #5182FF;
 
 }
-
+/*Project gallery----------------------------*/
 .gallery{
 	background-color: #5182FF;
-	padding: 0;
+	padding-bottom: 2em;
 	width: 100%;
 	display: flex;
 	justify-content:center;
 	flex-wrap: wrap;
+}
+
+.gallery h1{
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin: .5em;
 }
 
 .cover img{
@@ -328,7 +335,7 @@ aside > p {
 	margin: 0;
 }
 
-/*Interaction------------------------*/
+/*Interaction----------------------------------*/
 
 .deckButt:hover {
 	/* Drop it Like it's Hot */
