@@ -15,6 +15,7 @@ nav {
 
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 
 }
 
@@ -280,7 +281,7 @@ a:hover {
 
 /*responsive-------------------------*/
 
-@media (max-width: 444px) {
+@media (max-width: 414px) {
 	aside {
 		width: 100%
 	}
