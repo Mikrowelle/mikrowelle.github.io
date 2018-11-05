@@ -1,6 +1,6 @@
 html {
 	font-size: 18px;
-	font-family: Roboto ,sans-serif;
+	font-family: Roboto, sans-serif;
 }
 
 /*nav--------------------------------*/
@@ -17,7 +17,8 @@ nav {
 	justify-content: space-between;
 	flex-wrap: wrap;
 
-	z-index: +1; /*makes sure nav is on top*/
+	z-index: +1;
+	/*makes sure nav is on top*/
 
 }
 
@@ -174,6 +175,20 @@ article {
 	background-size: cover;
 }
 
+.parallax_vehicle {
+	/* The image used */
+	background-image: url(vehicle/images/vehicle_cover.jpg);
+
+	/* Set a specific height */
+	height: 80vh;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 article > img {
 	margin: 3em 0;
 	width: 100%;
@@ -208,7 +223,7 @@ article > img {
 	max-width: 75%;
 }
 
-video{
+video {
 	width: 100%;
 	margin: 3em 0;
 }
@@ -291,13 +306,13 @@ aside > p {
 
 /*home cover-----------------------------------*/
 
-.homeText{
+.homeText {
 	position: absolute;
 	top: 40vh;
 	right: 40vw;
 }
 
-.intro{
+.intro {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 1em;
@@ -311,28 +326,35 @@ aside > p {
 	background-color: #5182FF;
 
 }
+
 /*Project gallery----------------------------*/
-.gallery{
+.gallery {
 	background-color: #5182FF;
 	padding-bottom: 2em;
 	width: 100%;
 	display: flex;
-	justify-content:center;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
-.gallery h1{
+.gallery h1 {
 	width: 100%;
 	text-align: center;
 	color: white;
 	margin: .5em;
 }
 
-.cover img{
-	min-height:400px;
+.cover img {
+	min-height: 400px;
 	max-height: 20vw;
 	max-width: 100%;
 	margin: 0;
+}
+
+.cover:hover {
+	transform: scale(1.05, 1.05);
+	box-shadow: rgba(22, 23, 26, 0.15) 0px 8px 16px;
+	transition: all 0.2s ease-out 0s;
 }
 
 /*Interaction----------------------------------*/
@@ -354,13 +376,16 @@ a:hover {
 	aside {
 		width: 100%
 	}
-		nav{
+
+	nav {
 		justify-content: center;
 	}
-	#navLinks{
+
+	#navLinks {
 		margin-right: 0;
 	}
-	.dropdown-content{
+
+	.dropdown-content {
 		right: 0;
 		min-width: 100%;
 	}
@@ -377,7 +402,8 @@ a:hover {
 	#project {
 		max-width: 100%;
 	}
-	aside{
+
+	aside {
 		margin-top: 2em;
 	}
 }
