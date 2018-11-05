@@ -134,7 +134,7 @@ article {
 	background-image: url(mobile_banking/images/banking_photo_mockup.jpg);
 
 	/* Set a specific height */
-	height: 800px;
+	height: 80vh;
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
@@ -149,7 +149,7 @@ article {
 	background-image: url(news_deck/images/mobile_banking_cover.jpg);
 
 	/* Set a specific height */
-	height: 800px;
+	height: 80vh;
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
@@ -281,9 +281,19 @@ a:hover {
 
 /*responsive-------------------------*/
 
-@media (max-width: 414px) {
+@media (max-width: 538px) {
 	aside {
 		width: 100%
+	}
+		nav{
+		justify-content: center;
+	}
+	#navLinks{
+		margin-right: 0;
+	}
+	.dropdown-content{
+		right: 0;
+		min-width: 100%;
 	}
 }
 
@@ -294,8 +304,11 @@ a:hover {
 }
 
 /*Handels the aside*/
-@media (max-width: 1760px) {
+@media (max-width: 1780px) {
 	#project {
 		max-width: 100%;
+	}
+	aside{
+		margin-top: 2em;
 	}
 }
