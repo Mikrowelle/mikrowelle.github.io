@@ -17,24 +17,33 @@ nav {
 	justify-content: space-between;
 
 }
+#siteName {
+	font-weight: bold;
+	color: #ffffff;
+	margin: 0;
+	padding: .5em 3em;
+}
 
 #navLinks{
 	margin-right: 2em;
+	display: flex;
 }
 
 #navLinks > a {
 	font-size: 1em;
 	border: none;
 	outline: none;
-	color: white;
+	color: #ffffff;
 	padding: .5em 1em;
-	background-color: inherit;
 	font-family: inherit;
 	margin: 0;
 }
 
-#siteName {
-	padding: .5em 3em;
+#navLinks > a:hover {
+	text-decoration: none;/*Stops normal link hover effect*/
+	background-color: #5182FF;
+
+
 }
 
 .dropdown {
@@ -45,7 +54,7 @@ nav {
 	font-size: 1em;
 	border: none;
 	outline: none;
-	color: white;
+	color: #ffffff;
 	padding: .5em 1em;
 	background-color: inherit;
 	font-family: inherit;
@@ -200,12 +209,6 @@ a {
 	font-style: normal;
 	text-decoration: none;
 	color: #5182FF;
-}
-
-#siteName {
-	font-weight: bold;
-	color: #ffffff;
-	margin: 0;
 }
 
 aside > p {
