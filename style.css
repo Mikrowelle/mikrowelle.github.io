@@ -17,6 +17,8 @@ nav {
 	justify-content: space-between;
 	flex-wrap: wrap;
 
+	z-index: +1; /*makes sure nav is on top*/
+
 }
 
 #siteName {
@@ -298,6 +300,7 @@ aside > p {
 .intro{
 	display: flex;
 	justify-content: center;
+	margin-bottom: 1em;
 }
 
 
@@ -315,11 +318,14 @@ aside > p {
 	width: 100%;
 	display: flex;
 	justify-content:center;
+	flex-wrap: wrap;
 }
 
 .cover img{
-	max-height:100%;
+	min-height:400px;
+	max-height: 20vw;
 	max-width: 100%;
+	margin: 0;
 }
 
 /*Interaction------------------------*/
